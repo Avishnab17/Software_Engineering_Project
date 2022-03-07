@@ -24,7 +24,7 @@ int mathematics_Menu()
       switch (choice)
       {
           case 1: {
-            viewsupplier();
+            linearequation();
             break;
          }
           case 2: {
