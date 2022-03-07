@@ -1,5 +1,8 @@
 #include <stdlib.h>
 #include <stdbool.h>
+#include "linear_Equation.h"
+#include "cubic_Equation.h"
+#include "quadratic_Equation.h"
 
 int mathematics_Menu()
 {
@@ -24,16 +27,16 @@ int mathematics_Menu()
       switch (choice)
       {
           case 1: {
-            linearequation();
-            break;
+             linearequation();
+             break;
          }
           case 2: {
-             deleteSupplier();
+             cubicequation();
              break;
          }
           case 3: {
-              addsupplier();
-              break;
+             quadraticequation();
+             break;
           }
 
           case 4: {

@@ -1,9 +1,9 @@
-#ifndef quadratic_Equation_FILE
-#define quadratic_Equation_FILE
-#include < stdio.h >  
-#include < math.h >  
+#ifndef QUADRATIC_EQUATION_FILE
+#define QUADRATIC_EQUATION_FILE
+#include <stdio.h>  
+#include <math.h>  
   
-int main()  
+int quadraticequation()  
 {  
     float a, b, c;  
     float root1, root2;  
