@@ -14,7 +14,9 @@ int mathematics_Menu()
       
       while(true)
     {
-      printf("\nChoose from the following:\n");
+      printf("\nWhich type of equation you have to solve? :\n");
+      printf("\nChoose from the choices below:\n");
+      printf("\n");
       printf("1. Linear equation\n");
       printf("2. Quadratic equation\n");
       printf("3. Cubic equation\n");
