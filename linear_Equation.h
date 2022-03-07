@@ -13,13 +13,13 @@ void linearequation()
     float solution;
     printf("Enter value of a : ");
     scanf("%f",&a);
-    printf("Enter value of b : ");
-    scanf("%f",&b);
     while(a==0){
         printf("There is no solution for this linear equation!");
         printf("Enter value of a again : ");
         scanf("%f",&a);
     }
+    printf("Enter value of b : ");
+    scanf("%f",&b);
     solution = solve(a,b);
     printf("Value of x is : %f", solution);
 }
