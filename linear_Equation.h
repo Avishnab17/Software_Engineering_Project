@@ -22,7 +22,6 @@ void linearequation()
     }
     solution = solve(a,b);
     printf("Value of x is : %f", solution);
-    return 0;
 }
 
 #endif
