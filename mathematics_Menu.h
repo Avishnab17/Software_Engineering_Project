@@ -23,7 +23,7 @@ int mathematics_Menu()
       printf("4. Exit\n");
       printf("5. Return to main menu\n");
  
- 
+      printf("Choice : ");
       scanf("%d",&choice);
  
       switch (choice)
