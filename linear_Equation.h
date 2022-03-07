@@ -1,5 +1,5 @@
-#ifndef EQUATION_FILE
-#define EQUATION_FILE
+#ifndef LINEAR_EQUATION_FILE
+#define LINEAR_EQUATION_FILE
 #include <stdlib.h>
 
 void linearequation()
