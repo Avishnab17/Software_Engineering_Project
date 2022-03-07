@@ -11,17 +11,26 @@ void linearequation()
 {
     float a=0, b=0;
     float solution;
+
     printf("Enter value of a : ");
     scanf("%f",&a);
+
+    printf("\n");
+
     while(a==0){
-        printf("There is no solution for this linear equation!");
+        printf("There is no solution for this linear equation!\n");
         printf("Enter value of a again : ");
         scanf("%f",&a);
     }
+
+    printf("\n"); 
+
     printf("Enter value of b : ");
     scanf("%f",&b);
+
     solution = solve(a,b);
-    printf("Value of x is : %f", solution);
+
+    printf("\nValue of x is : %f\n", solution);
 }
 
 #endif
