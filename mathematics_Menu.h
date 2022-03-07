@@ -31,11 +31,11 @@ int mathematics_Menu()
              break;
          }
           case 2: {
-             cubicequation();
+             quadraticequation();
              break;
          }
           case 3: {
-             quadraticequation();
+             cubicequation();
              break;
           }
 
