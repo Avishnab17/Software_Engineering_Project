@@ -61,8 +61,5 @@ void cubicequation()
     
     printf("\nRoots:\nx = %d   x = %d + %d  x = %d + %d ", x1_real, x2_real, x2_imag_s ,x3_real, x3_imag_s);
     
-    return 0; 
 }
-}
-
 #endif
