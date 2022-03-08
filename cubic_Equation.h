@@ -22,7 +22,7 @@ void cubicequation()
     
     double x1_real, x2_real, x3_real;
     double x2_imag, x3_imag;
-    string x2_imag_s, x3_imag_s;
+    char x2_imag_s, x3_imag_s;
     if (disc > 0)   // One root real, two are complex
     {
         s = r + sqrt(disc);
