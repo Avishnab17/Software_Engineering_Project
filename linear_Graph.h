@@ -1,19 +1,21 @@
 #ifndef LINEAR_GRAPH_FILE
 #define LINEAR_GRAPH_FILE
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 9959ecd4131f3371fc2c2468f004cad02de7ed29
-=======
->>>>>>> 9959ecd4131f3371fc2c2468f004cad02de7ed29
-=======
->>>>>>> 9959ecd4131f3371fc2c2468f004cad02de7ed29
 
->>>>>>> 9959ecd4131f3371fc2c2468f004cad02de7ed29
+#include <stdio.h>
+#include <math.h>
+#define WIDTH 60
+#define HEIGHT 30
+#define X WIDTH/2
+#define Y HEIGHT/2
+#define XMAX WIDTH-X-1
+#define XMIN -(WIDTH-X)
+#define YMAX HEIGHT-Y
+#define YMIN -(HEIGHT-Y)+1
+
+char Grid[HEIGHT][WIDTH];
+
+void Init_grid(void);
 int Plot(int x, int y);
 void Show_grid(void);
 
