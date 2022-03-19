@@ -31,7 +31,6 @@ void linearequation()
     solution = solve(a,b);
 
     printf("\nValue of x is : %f\n", solution);
-
     
 }
 
