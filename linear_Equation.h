@@ -4,6 +4,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #include <stdlib.h>
 #include "linear_Graph.h"
@@ -90,3 +91,5 @@ void linearequation()
 #endif
 =======
 >>>>>>> e0a0fd57131c70b291bebb94e79d6fd8e4f197f4
+=======
+>>>>>>> 9959ecd4131f3371fc2c2468f004cad02de7ed29

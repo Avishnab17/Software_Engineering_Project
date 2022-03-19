@@ -9,6 +9,7 @@
 #include <math.h>  
 =======
 
+<<<<<<< HEAD
 #include <stdio.h>
 #include <math.h>
 >>>>>>> 05ed53a34415447fe871ed076332fabeb5e928f4
@@ -24,6 +25,8 @@
 #define YMIN -(HEIGHT-Y)+1
 
 char Grid[HEIGHT][WIDTH];
+=======
+>>>>>>> 9959ecd4131f3371fc2c2468f004cad02de7ed29
 
 <<<<<<< HEAD
 int plot(int x, int y);
@@ -32,7 +35,6 @@ void show_grid(void);
 
 =======
 int Plot(int x, int y);
-void Init_grid(void);
 void Show_grid(void);
 
 
