@@ -2,7 +2,10 @@
 #define LINEAR_GRAPH_FILE
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 9959ecd4131f3371fc2c2468f004cad02de7ed29
 
 >>>>>>> 9959ecd4131f3371fc2c2468f004cad02de7ed29
 int Plot(int x, int y);
