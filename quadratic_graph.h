@@ -4,7 +4,7 @@
 #include <math.h>
 
 #define WIDTH 60
-#define HEIGHT 20
+#define HEIGHT 30
 #define X WIDTH/2
 #define Y HEIGHT/2
 #define XMAX WIDTH-X-1
