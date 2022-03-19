@@ -31,6 +31,18 @@ void linearequation()
     solution = solve(a,b);
 
     printf("\nValue of x is : %f\n", solution);
+
+    //plotting graph
+    init_grid();
+    float x;
+    float y;
+    for(x=-10;x<=10;x+=0.1)
+    {
+        y = (a * ))) + (b*x) + c;
+        plot(rintf(x*4),rintf(y*2));
+    }
+    show_grid();
+
     
 }
 

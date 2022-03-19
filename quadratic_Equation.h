@@ -29,6 +29,7 @@ int quadraticequation()
         printf("Root1 = %f\nRoot2 = %f", root1, root2);  
     }  
     printf("\n");
+    
     //plotting graph
     init_grid();
     float x;
