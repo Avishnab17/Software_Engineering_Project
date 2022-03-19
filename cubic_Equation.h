@@ -2,6 +2,7 @@
 #define CUBIC_EQUATION_FILE
 #include <stdlib.h>
 #include<math.h>
+#include"cubic_Graph.h"
 
 void cubicequation()
 {
@@ -48,5 +49,15 @@ void cubicequation()
          printf("%f - %f i ",re,im);
       }
    }
+   //plotting graph
+    INIT_grid();
+    float x;
+    float y;
+    for(x=-10;x<=10;x+=0.1)
+    {
+         y = (a * (pow(x,3))) + (b*(pow(x,2))) + (c*x) + d;
+        PLOT(rintf(x*4),rintf(y*2));
+    }
+    SHOW_grid();
 }
 #endif
