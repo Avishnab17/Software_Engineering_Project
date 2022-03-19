@@ -1,9 +1,21 @@
 #ifndef LINEAR_EQUATION_FILE
 #define LINEAR_EQUATION_FILE
+<<<<<<< HEAD
 
 #include <stdlib.h>
 #include "linear_Graph.h"
 
+=======
+<<<<<<< HEAD
+#include <stdio.h>  
+#include <math.h>  
+#include "linear_equation.h"
+
+=======
+#include <stdlib.h>
+#include "linear_Graph.h"
+>>>>>>> 05ed53a34415447fe871ed076332fabeb5e928f4
+>>>>>>> a1463137069953879d58794e3df5928532c5ef1f
 float solve(float a, float b)
 {
     return -(b/a);
@@ -40,8 +52,13 @@ void linearequation()
     float y;
     for(x=-10;x<=10;x+=0.1)
     {
+<<<<<<< HEAD
+        y = (a*x) + b;
+        plot(rintf(x*4),rintf(y*2));
+=======
         y = (a * x) + b;
         Plot(rintf(x*4),rintf(y*2));
+>>>>>>> 05ed53a34415447fe871ed076332fabeb5e928f4
     }
     Show_grid();
     

@@ -2,9 +2,9 @@
 #define LINEAR_GRAPH_FILE
 
 
+
 #include <stdio.h>
 #include <math.h>
-
 
 #define WIDTH 60
 #define HEIGHT 30
@@ -17,10 +17,22 @@
 
 char Grid[HEIGHT][WIDTH];
 
+<<<<<<< HEAD
+int plot(int x, int y);
+void init_grid(void);
+void show_grid(void);
+
+=======
 int Plot(int x, int y);
 void Init_grid(void);
 void Show_grid(void);
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 05ed53a34415447fe871ed076332fabeb5e928f4
+>>>>>>> a1463137069953879d58794e3df5928532c5ef1f
 /* Set "pixel" at specific coordinates */
 int Plot(int x, int y)
 {
