@@ -15,6 +15,7 @@
 char Grid[HEIGHT][WIDTH];
 
 void Init_grid(void);
+
 int Plot(int x, int y);
 void Show_grid(void);
 
