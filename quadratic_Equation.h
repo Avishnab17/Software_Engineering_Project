@@ -33,7 +33,7 @@ int quadraticequation()
     init_grid();
     float x;
     float y;
-    for(x=-3.14159;x<=3.14159;x+=0.1)
+    for(x=-10;x<=10;x+=0.1)
     {
         y = (a * (pow(x,2))) + (b*x) + c;
         plot(rintf(x*10),rintf(y*8));
