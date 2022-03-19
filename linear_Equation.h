@@ -2,12 +2,23 @@
 #define LINEAR_EQUATION_FILE
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #include <stdlib.h>
 #include "linear_Graph.h"
 
 =======
 <<<<<<< HEAD
+#include <stdio.h>  
+#include <math.h>  
+#include "linear_equation.h"
+
+=======
+#include <stdlib.h>
+#include "linear_Graph.h"
+>>>>>>> 05ed53a34415447fe871ed076332fabeb5e928f4
+>>>>>>> a1463137069953879d58794e3df5928532c5ef1f
+=======
 #include <stdio.h>  
 #include <math.h>  
 #include "linear_equation.h"
