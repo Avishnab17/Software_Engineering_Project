@@ -2,7 +2,7 @@
 #define CUBIC_EQUATION_FILE
 #include <stdlib.h>
 #include<math.h>
-#include<cubic_Equation.h>
+#include"cubic_Graph.h"
 
 void cubicequation()
 {
