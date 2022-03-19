@@ -1,7 +1,13 @@
 #ifndef LINEAR_GRAPH_FILE
 #define LINEAR_GRAPH_FILE
+<<<<<<< HEAD
 #include <stdio.h>  
 #include <math.h>  
+=======
+
+#include <stdio.h>
+#include <math.h>
+>>>>>>> 05ed53a34415447fe871ed076332fabeb5e928f4
 
 #define WIDTH 60
 #define HEIGHT 30
@@ -12,47 +18,56 @@
 #define YMAX HEIGHT-Y
 #define YMIN -(HEIGHT-Y)+1
 
-char grid[HEIGHT][WIDTH];
+char Grid[HEIGHT][WIDTH];
 
+<<<<<<< HEAD
 int plot(int x, int y);
 void init_grid(void);
 void show_grid(void);
 
+=======
+int Plot(int x, int y);
+void Init_grid(void);
+void Show_grid(void);
+
+
+
+>>>>>>> 05ed53a34415447fe871ed076332fabeb5e928f4
 /* Set "pixel" at specific coordinates */
-int plot(int x, int y)
+int Plot(int x, int y)
 {
     if( x > XMAX || x < XMIN || y > YMAX || y < YMIN )
         return(-1);
 
-    grid[Y-y][X+x] = '*';
+    Grid[Y-y][X+x] = '*';
     return(1);
 }
 
 /* Initialize grid */
-void init_grid(void)
+void Init_grid(void)
 {
     int x,y;
 
     for(y=0;y<HEIGHT;y++)
         for(x=0;x<WIDTH;x++)
-            grid[y][x] = ' ';
+            Grid[y][x] = ' ';
     /* draw the axis */
     for(y=0;y<HEIGHT;y++)
-        grid[y][X] = '|';
+        Grid[y][X] = '|';
     for(x=0;x<WIDTH;x++)
-        grid[Y][x] = '-';
-    grid[Y][X] = '+';
+        Grid[Y][x] = '-';
+    Grid[Y][X] = '+';
 }
 
 /* display grid */
-void show_grid(void)
+void Show_grid(void)
 {
     int x,y;
 
     for(y=0;y<HEIGHT;y++)
     {
         for(x=0;x<WIDTH;x++)
-            putchar(grid[y][x]);
+            putchar(Grid[y][x]);
         putchar('\n');
     }
 }
