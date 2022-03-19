@@ -1,11 +1,13 @@
 #ifndef LINEAR_GRAPH_FILE
 #define LINEAR_GRAPH_FILE
 
+
 #include <stdio.h>
 #include <math.h>
 
+
 #define WIDTH 60
-#define HEIGHT 20
+#define HEIGHT 30
 #define X WIDTH/2
 #define Y HEIGHT/2
 #define XMAX WIDTH-X-1
@@ -18,8 +20,6 @@ char Grid[HEIGHT][WIDTH];
 int Plot(int x, int y);
 void Init_grid(void);
 void Show_grid(void);
-
-
 
 /* Set "pixel" at specific coordinates */
 int Plot(int x, int y)

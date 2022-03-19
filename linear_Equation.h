@@ -1,7 +1,9 @@
 #ifndef LINEAR_EQUATION_FILE
 #define LINEAR_EQUATION_FILE
+
 #include <stdlib.h>
 #include "linear_Graph.h"
+
 float solve(float a, float b)
 {
     return -(b/a);
