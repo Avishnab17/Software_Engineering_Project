@@ -1,2 +1,4 @@
 #ifndef LINEAR_EQUATION_FILE
 #define LINEAR_EQUATION_FILE
+
+#endif
