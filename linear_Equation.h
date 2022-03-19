@@ -1,7 +1,7 @@
 #ifndef LINEAR_EQUATION_FILE
 #define LINEAR_EQUATION_FILE
 #include <stdlib.h>
-
+#include "linear_Graph.h"
 float solve(float a, float b)
 {
     return -(b/a);
@@ -33,16 +33,15 @@ void linearequation()
     printf("\nValue of x is : %f\n", solution);
 
     //plotting graph
-    init_grid();
+    Init_grid();
     float x;
     float y;
     for(x=-10;x<=10;x+=0.1)
     {
-        y = (a * ))) + (b*x) + c;
-        plot(rintf(x*4),rintf(y*2));
+        y = (a * x) + b;
+        Plot(rintf(x*4),rintf(y*2));
     }
-    show_grid();
-
+    Show_grid();
     
 }
 
