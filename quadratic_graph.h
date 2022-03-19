@@ -34,7 +34,7 @@ void show_grid(void);
 }*/
 
 /* Set "pixel" at specific coordinates */
-int plot(float x, float y)
+int plot(int x, int y)
 {
     if( x > XMAX || x < XMIN || y > YMAX || y < YMIN )
         return(-1);
