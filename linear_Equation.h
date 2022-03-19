@@ -1,6 +1,8 @@
 #ifndef LINEAR_EQUATION_FILE
 #define LINEAR_EQUATION_FILE
-#include <stdlib.h>
+#include <stdio.h>  
+#include <math.h>  
+#include "linear_equation.h"
 
 float solve(float a, float b)
 {
@@ -38,7 +40,7 @@ void linearequation()
     float y;
     for(x=-10;x<=10;x+=0.1)
     {
-        y = (a * ))) + (b*x) + c;
+        y = (a*x) + b;
         plot(rintf(x*4),rintf(y*2));
     }
     show_grid();
