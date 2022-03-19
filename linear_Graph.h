@@ -21,6 +21,7 @@ void Show_grid(void);
 
 
 /* Set "pixel" at specific coordinates */
+int Plot(int x, int y)
 {
     if( x > XMAX || x < XMIN || y > YMAX || y < YMIN )
         return(-1);
