@@ -1,45 +1,9 @@
 #ifndef LINEAR_EQUATION_FILE
 #define LINEAR_EQUATION_FILE
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 
 #include <stdlib.h>
 #include "linear_Graph.h"
 
-=======
-<<<<<<< HEAD
-#include <stdio.h>  
-#include <math.h>  
-#include "linear_equation.h"
-
-=======
-#include <stdlib.h>
-#include "linear_Graph.h"
->>>>>>> 05ed53a34415447fe871ed076332fabeb5e928f4
->>>>>>> a1463137069953879d58794e3df5928532c5ef1f
-=======
-#include <stdio.h>  
-#include <math.h>  
-#include "linear_equation.h"
-
-=======
-#include <stdlib.h>
-#include "linear_Graph.h"
->>>>>>> 05ed53a34415447fe871ed076332fabeb5e928f4
->>>>>>> a1463137069953879d58794e3df5928532c5ef1f
-=======
-#include <stdio.h>  
-#include <math.h>  
-#include "linear_equation.h"
-
-=======
-#include <stdlib.h>
-#include "linear_Graph.h"
->>>>>>> 05ed53a34415447fe871ed076332fabeb5e928f4
->>>>>>> a1463137069953879d58794e3df5928532c5ef1f
 float solve(float a, float b)
 {
     return -(b/a);
@@ -76,20 +40,11 @@ void linearequation()
     float y;
     for(x=-10;x<=10;x+=0.1)
     {
-<<<<<<< HEAD
-        y = (a*x) + b;
-        plot(rintf(x*4),rintf(y*2));
-=======
         y = (a * x) + b;
         Plot(rintf(x*4),rintf(y*2));
->>>>>>> 05ed53a34415447fe871ed076332fabeb5e928f4
     }
     Show_grid();
     
 }
 
 #endif
-=======
->>>>>>> e0a0fd57131c70b291bebb94e79d6fd8e4f197f4
-=======
->>>>>>> 9959ecd4131f3371fc2c2468f004cad02de7ed29
