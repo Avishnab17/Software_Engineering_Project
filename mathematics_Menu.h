@@ -4,6 +4,7 @@
 #include "cubic_Equation.h"
 #include "quadratic_Equation.h"
 
+
 int mathematics_Menu()
 {
     float result;

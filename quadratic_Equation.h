@@ -2,7 +2,8 @@
 #define QUADRATIC_EQUATION_FILE
 #include <stdio.h>  
 #include <math.h>  
-  
+#include "quadratic_graph.h"
+
 int quadraticequation()  
 {  
     float a, b, c;  
@@ -27,7 +28,17 @@ int quadraticequation()
   
         printf("Root1 = %f\nRoot2 = %f", root1, root2);  
     }  
-  
+    //plotting graph
+    init_grid();
+    float x;
+    float y;
+    for(x=-3.14159;x<=3.14159;x+=0.1)
+    {
+        y = (a * (pow(x,2))) + (b*x) + c;
+        plot(rintf(x*10),rintf(y*8));
+    }
+    show_grid();
+
     return 0;  
 }  
 #endif
