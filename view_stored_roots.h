@@ -15,11 +15,11 @@ void view_stored_roots()
     }
     else
     {
-        printf("File opened in read mode");
+        printf("File opened in read mode\n");
     } 
     while((c=fgetc(ptr))!=EOF)
     {
-        printf("%d",c);
+        printf("%c",c);
     }
 
 }
