@@ -49,7 +49,7 @@ int mathematics_Menu()
              break;
           }
           case 4: {
-             storeroot();
+             //storeroot();
              break;
           }
           case 5: {

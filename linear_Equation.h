@@ -1,9 +1,13 @@
 #ifndef LINEAR_EQUATION_FILE
 #define LINEAR_EQUATION_FILE
 
+#define BUFFER_SIZE 1000
+
 #include <stdlib.h>
+#include <string.h>
 #include "linear_Graph.h"
 #include "colored_output.h"
+#include "store_root_values.h"
 
 float solve(float a, float b)
 {
@@ -35,6 +39,19 @@ void linearequation()
     yellow();
     solution = solve(a,b);
     printf("\nValue of x is : %f\n", solution);
+    
+    // storing results in txt file
+    FILE *fptr;
+    fptr=fopen("Stored_roots_values.txt","a");
+
+    reset();
+   fprintf(fptr,"Linear Equation :Roots = %f ",solution);
+   fptr=freopen("Stored_roots_values.txt","r",fptr);
+   printf("\nSuccessfully appended data\n");
+   readFile(fptr);
+   printf("\n");
+   fclose(fptr);
+
     red();
     //plotting graph
     Init_grid();

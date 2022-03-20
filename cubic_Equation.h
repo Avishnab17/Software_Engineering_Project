@@ -8,7 +8,7 @@
 
 void cubicequation()
 {
-
+    FILE *fptr;
    double a, b, c, d, e, f, g, h, i, j, k, l, m, n, p, r, s, t, u, x1, x2, x3;
 
    int w;
@@ -82,6 +82,17 @@ void cubicequation()
       x3 = (s - u) * sqrt(3) / 2;
 
       printf("\nA 3 pont:\n x1 = %lf\n\nStationary Points :\n %lf +i*%lf\n %lf -i*%lf", x1, x2, x3, x2, x3);
+      // storing results in txt file
+    
+    fptr=fopen("Stored_roots_values.txt","a");
+
+    reset();
+   fprintf(fptr,"\nCubic Equation: %lf*x^3 + %lf*x^2 + %lf*x + %lf\n   A 3 pont: x1 = %lf\n  Stationary Points :\n %lf +i*%lf\n   %lf -i*%lf",a,b,c,d,x1,x2,x3,x2,x3);
+   fptr=freopen("Stored_roots_values.txt","r",fptr);
+   printf("\nSuccessfully appended data\n");
+   readFile(fptr);
+   printf("\n");
+   fclose(fptr);
 
       break;
 
@@ -90,6 +101,18 @@ void cubicequation()
       x1 = exp(log10(d / a) / log10(e) / 3) * (-1);
 
       printf("\n There is a line:\n%lf", x1);
+       // storing results in txt file
+   
+    fptr=fopen("Stored_roots_values.txt","a");
+
+    reset();
+   fprintf(fptr,"\nCubic Equation: %lf*x^3 + %lf*x^2 + %lf*x + %lf\n   There is a line: x1 = %lf",a,b,c,d,x1);
+   fptr=freopen("Stored_roots_values.txt","r",fptr);
+   printf("\nSuccessfully appended data\n");
+   readFile(fptr);
+   printf("\n");
+   fclose(fptr);
+
 
       break;
 
@@ -102,6 +125,17 @@ void cubicequation()
       x3 = l * (m - n) + p;
 
       printf("\nA 3 Roots:\nx1 = %lf\nx2 = %lf\nx3 = %lf", x1, x2, x3);
+           // storing results in txt file
+   
+    fptr=fopen("Stored_roots_values.txt","a");
+
+    reset();
+   fprintf(fptr,"\nCubic Equation: %lf*x^3 + %lf*x^2 + %lf*x + %lf\n  A 3 Roots:\n  x1 = %lf\n  x2 = %lf\n  x3 = %lf",a,b,c,d,x1,x2,x3);
+   fptr=freopen("Stored_roots_values.txt","r",fptr);
+   printf("\nSuccessfully appended data\n");
+   readFile(fptr);
+   printf("\n");
+   fclose(fptr);
 
       break;
    }
