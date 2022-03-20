@@ -26,12 +26,8 @@ void linearequation()
         scanf("%f",&a);
     }
 
- 
-    printf("\nEnter value of b : ");
-    scanf("%f",&b);
 
     solution = solve(a,b);
-    yellow();
     printf("\nValue of x is : %f\n", solution);
     red();
     //plotting graph
