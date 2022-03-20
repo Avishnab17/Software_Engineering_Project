@@ -4,6 +4,8 @@
 #include <math.h>  
 #include "quadratic_graph.h"
 #include "colored_output.h"
+#include "store_root_values.h"
+
 int quadraticequation()  
 {  
     float a, b, c;  
@@ -37,6 +39,18 @@ int quadraticequation()
         printf("Root1 = %f\nRoot2 = %f", root1, root2);  
     }  
     printf("\n");
+
+    // storing results in txt file
+    FILE *fptr;
+    fptr=fopen("Stored_roots_values.txt","a");
+
+    green();
+   fprintf(fptr,"\nQuadratic Equation : Root1 = %f    Root2 = %f ",root1,root2);
+   fptr=freopen("Stored_roots_values.txt","r",fptr);
+   printf("\nSuccessfully appended data\n");
+   readFile(fptr);
+   printf("\n");
+   fclose(fptr);
     
     //plotting graph
     init_grid();
