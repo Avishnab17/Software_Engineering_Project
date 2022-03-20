@@ -15,19 +15,19 @@ void cubicequation()
    cyan();
    printf("\n a*x^3+b*x^2+c*x+d:\n");
 
-   printf("a=");
+   printf("Enter value of a : ");
 
    scanf("%lf", &a);
 
-   printf("\nb=");
+   printf("\nEnter value of b : ");
 
    scanf("%lf", &b);
 
-   printf("\nc=");
+   printf("\nEnter value of c : ");
 
    scanf("%lf", &c);
 
-   printf("\nd=");
+   printf("\nEnter value of d : ");
 
    scanf("%lf", &d);
 
