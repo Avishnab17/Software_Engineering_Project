@@ -13,7 +13,7 @@ void cubicequation()
 
    int w;
    blue();
-   printf("\n a*x^3+b*x^2+c*x+d:\n\n");
+   printf("\n\ta*x^3+b*x^2+c*x+d:\n\n");
    cyan();
    printf("Enter value of a : ");
 
@@ -81,7 +81,7 @@ void cubicequation()
 
       x3 = (s - u) * sqrt(3) / 2;
 
-      printf("\nA 3 pont:\n x1 = %lf\nStationary Points :\n %lf +i*%lf\n%lf -i*%lf", x1, x2, x3, x2, x3);
+      printf("\nA 3 pont:\n x1 = %lf\n\nStationary Points :\n %lf +i*%lf\n %lf -i*%lf", x1, x2, x3, x2, x3);
 
       break;
 

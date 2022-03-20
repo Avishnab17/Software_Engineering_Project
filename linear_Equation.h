@@ -14,7 +14,7 @@ float solve(float a, float b)
 void linearequation()
 {
     blue();
-    printf("\ta*x+b\n");
+    printf("\n\ta*x+b\n");
     float a=0, b=0;
     float solution;
     cyan();    
