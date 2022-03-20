@@ -10,8 +10,10 @@ int quadraticequation()
     float root1, root2;  
     float root_part, denom;  
     cyan();
-    printf("Enter values of a, b and c\n");  
-    scanf("%f%f%f", &a, &b, &c);  
+    printf("Enter value of a:\n");  scanf("%f", &a);  
+    printf("Enter value of b:\n"); scanf("%f", &b);  
+    printf("Enter value of c:\n");scanf("%f",  &c); 
+  
   
     if(a == 0)  
     {   blue();
