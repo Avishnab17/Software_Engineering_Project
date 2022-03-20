@@ -12,9 +12,9 @@ void cubicequation()
    double a, b, c, d, e, f, g, h, i, j, k, l, m, n, p, r, s, t, u, x1, x2, x3;
 
    int w;
-   cyan();
+   blue();
    printf("\n a*x^3+b*x^2+c*x+d:\n\n");
-
+   cyan();
    printf("Enter value of a : ");
 
    scanf("%lf", &a);

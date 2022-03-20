@@ -10,8 +10,11 @@ float solve(float a, float b)
     return -(b/a);
 }
 
+
 void linearequation()
 {
+    blue();
+    printf("\ta*x+b\n");
     float a=0, b=0;
     float solution;
     cyan();    

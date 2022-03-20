@@ -8,7 +8,9 @@ int quadraticequation()
 {  
     float a, b, c;  
     float root1, root2;  
-    float root_part, denom;  
+    float root_part, denom; 
+    blue();
+    printf("   a*x^2+b*x+c   \n"); 
     cyan();
     printf("Enter value of a:\n");  scanf("%f", &a);  
     printf("Enter value of b:\n"); scanf("%f", &b);  
