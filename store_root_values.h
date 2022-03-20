@@ -27,16 +27,14 @@ void storeroot()
     FILE *fptr;
     fptr=fopen("Stored_roots_values.txt","a");
 
-    printf("Enter equation type:\n");
-    scanf("%s",name);
-
     if(fptr==NULL)
     {
         printf("Error!");
         exit(EXIT_FAILURE);
     }
     printf("\n");
-
+    printf("Enter equation type:\n");
+    scanf("%s",name);
      for(int i=0;i<num;++i)
     {
         printf("Enter values:\n");

@@ -7,7 +7,7 @@ void view_stored_roots()
     FILE * ptr;
     int c;
 
-    ptr=fopen("Software_Engineering_Project/Stored_roots_values.txt","r");
+    ptr=fopen("Stored_roots_values.txt","r");
 
     if(ptr == NULL)
     {
@@ -19,7 +19,7 @@ void view_stored_roots()
     } 
     while((c=fgetc(ptr))!=EOF)
     {
-        printf("%c",c);
+        printf("%d",c);
     }
 
 }
