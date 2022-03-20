@@ -39,18 +39,6 @@ int quadraticequation()
         printf("Root1 = %f\nRoot2 = %f", root1, root2);  
     }  
     printf("\n");
-
-    // storing results in txt file
-    FILE *fptr;
-    fptr=fopen("Stored_roots_values.txt","a");
-
-    green();
-   fprintf(fptr,"\nQuadratic Equation : %0.1f *x^2 + %0.1f *x + %0.1f  Root1 = %0.3f    Root2 = %0.3f ",a,b,c,root1,root2);
-   fptr=freopen("Stored_roots_values.txt","r",fptr);
-   printf("\nSuccessfully appended data\n");
-   readFile(fptr);
-   printf("\n");
-   fclose(fptr);
     
     //plotting graph
     init_grid();
@@ -64,6 +52,18 @@ int quadraticequation()
     }
     show_grid();
     reset();
+
+    // storing results in txt file
+    FILE *fptr;
+    fptr=fopen("Stored_roots_values.txt","a");
+
+    green1();
+   fprintf(fptr,"\nQuadratic Equation : %0.1f *x^2 + %0.1f *x + %0.1f  Root1 = %0.3f    Root2 = %0.3f ",a,b,c,root1,root2);
+   fptr=freopen("Stored_roots_values.txt","r",fptr);
+   printf("\nSuccessfully appended data\n");
+   readFile(fptr);
+   printf("\n");
+   fclose(fptr);
 
     return 0;  
 }  

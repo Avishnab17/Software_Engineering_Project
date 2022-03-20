@@ -70,6 +70,20 @@ void cubicequation()
    if ((f == 0) && (g == 0) && (h == 0))
       w = 2;
 
+   red();
+   // plotting graph
+   INIT_grid();
+   float x;
+   float y;
+   printf("\n");
+   for (x = -10; x <= 10; x += 0.1)
+   {
+      y = (a * (pow(x, 3))) + (b * (pow(x, 2))) + (c * x) + d;
+      PLOT(rintf(x * 4), rintf(y * 2));
+   }
+   SHOW_grid();
+   reset();
+
    switch (w)
    {
 
@@ -85,14 +99,13 @@ void cubicequation()
       // storing results in txt file
     
     fptr=fopen("Stored_roots_values.txt","a");
-
-    reset();
+    green1();
    fprintf(fptr,"\nCubic Equation: %0.1lf*x^3 + %0.1lf*x^2 + %0.1lf*x + %0.1lf\n   A 3 pont: x1 = %0.3lf\n   Stationary Points :\n\t %0.3lf +i*%0.3lf \n\t %0.3lf -i*%0.3lf",a,b,c,d,x1,x2,x3,x2,x3);
    fptr=freopen("Stored_roots_values.txt","r",fptr);
    printf("\nSuccessfully appended data\n");
    readFile(fptr);
    printf("\n");
-   fclose(fptr);
+   fclose(fptr);reset();
 
       break;
 
@@ -106,12 +119,14 @@ void cubicequation()
     fptr=fopen("Stored_roots_values.txt","a");
 
     reset();
+    green1();
    fprintf(fptr,"\nCubic Equation: %0.1lf*x^3 + %0.1lf*x^2 + %0.1lf*x + %0.1lf\n   There is a line: x1 = %0.3lf",a,b,c,d,x1);
    fptr=freopen("Stored_roots_values.txt","r",fptr);
    printf("\nSuccessfully appended data\n");
    readFile(fptr);
    printf("\n");
    fclose(fptr);
+   reset();
 
 
       break;
@@ -129,7 +144,7 @@ void cubicequation()
    
     fptr=fopen("Stored_roots_values.txt","a");
 
-    reset();
+    green1();
    fprintf(fptr,"\nCubic Equation: %0.1lf*x^3 + %0.1lf*x^2 + %0.1lf*x + %0.1lf\n  A 3 Roots:\n  x1 = %0.3lf\n  x2 = %0.3lf\n  x3 = %0.3lf",a,b,c,d,x1,x2,x3);
    fptr=freopen("Stored_roots_values.txt","r",fptr);
    printf("\nSuccessfully appended data\n");
@@ -139,20 +154,8 @@ void cubicequation()
 
       break;
    }
-
-   //getch();
-   red();
-   // plotting graph
-   INIT_grid();
-   float x;
-   float y;
-   printf("\n");
-   for (x = -10; x <= 10; x += 0.1)
-   {
-      y = (a * (pow(x, 3))) + (b * (pow(x, 2))) + (c * x) + d;
-      PLOT(rintf(x * 4), rintf(y * 2));
-   }
-   SHOW_grid();
    reset();
+   //getch();
+   
 }
 #endif

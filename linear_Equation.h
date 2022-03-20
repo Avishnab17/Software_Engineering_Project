@@ -40,18 +40,6 @@ void linearequation()
     solution1=solve(a,b);
     printf("\nValue of x is : %f\n", solution1);
     
-    // storing results in txt file
-    FILE *fptr;
-    fptr=fopen("Stored_roots_values.txt","a");
-
-    reset();
-   fprintf(fptr,"\nLinear Equation :  %0.1f *x + %0.1f    Root = %0.3f ",a,b,solution1);
-   fptr=freopen("Stored_roots_values.txt","r",fptr);
-   printf("\nSuccessfully appended data\n");
-   readFile(fptr);
-   printf("\n");
-   fclose(fptr);
-
     red();
     //plotting graph
     Init_grid();
@@ -64,6 +52,17 @@ void linearequation()
     }
     Show_grid();
     reset();
+
+    // storing results in txt file
+    FILE *fptr;
+    fptr=fopen("Stored_roots_values.txt","a");
+
+   fprintf(fptr,"\nLinear Equation :  %0.1f *x + %0.1f    Root = %0.3f ",a,b,solution1);
+   fptr=freopen("Stored_roots_values.txt","r",fptr);
+   printf("\nSuccessfully appended data\n");
+   readFile(fptr);
+   printf("\n");
+   fclose(fptr);
     
 }
 #endif

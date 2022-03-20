@@ -15,6 +15,9 @@ void reset () {
 void green(){
     printf("\033[1;32m");
 }
+void green1(){
+    printf("\033[0;32m");
+}
 void blue(){
     printf("\033[1;34m");
 }
