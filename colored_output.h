@@ -13,7 +13,7 @@ void reset () {
   printf("\033[0m");
 }
 void green(){
-    printf("\033[0;32m");
+    printf("\033[1;32m");
 }
 void blue(){
     printf("\033[0;34m");
