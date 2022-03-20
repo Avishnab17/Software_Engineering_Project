@@ -5,9 +5,8 @@
 #include"cubic_Graph.h"
 #include "colored_output.h"
 
-void cubicequation()
-{
-       
+void cubicequation(){
+
 double a,b,c,d,e,f,g,h,i,j,k,l,m,n,p,r,s,t,u,x1,x2,x3;
 
 int w;
@@ -103,8 +102,7 @@ break;
 }
 
 getch();
-   
- }
+
    printf("\n");
    //plotting graph
     INIT_grid();
