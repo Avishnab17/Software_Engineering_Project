@@ -29,7 +29,7 @@ void linearequation()
     printf("Enter value of b : ");
     scanf("%f",&b);
 
-
+    yellow();
     solution = solve(a,b);
     printf("\nValue of x is : %f\n", solution);
     red();
