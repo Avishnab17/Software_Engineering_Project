@@ -1,3 +1,14 @@
 Linear equation: Roots: -1.50
 Linear Equation. Roots: -1.20
 Linear Equation :Roots = -1.166667 
+
+Cubic Equation: -1.0*x^3 + -3.0*x^2 + -1.0*x + 3.0
+   A 3 pont: x1 = 0.769
+  Stationary Points :
+ -1.885 +i*0.590
+   -1.885 -i*0.590
+Cubic Equation: -1.0*x^3 + 0.0*x^2 + 6.0*x + -2.0
+  A 3 Roots:
+  x1 = 2.262
+  x2 = -2.602
+  x3 = 0.340
