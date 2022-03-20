@@ -19,7 +19,7 @@ void linearequation()
     scanf("%f",&a);
 
     printf("\n");
-
+    cyan();
     while(a==0){
         printf("\nThere is no solution for this linear equation!\n");
         printf("\nEnter value of a again : ");
