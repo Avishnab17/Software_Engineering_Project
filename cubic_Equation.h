@@ -81,7 +81,7 @@ void cubicequation()
 
       x3 = (s - u) * sqrt(3) / 2;
 
-      printf("\nA 3 pont:\n%lf\n%lf +i*%lf\n%lf -i*%lf", x1, x2, x3, x2, x3);
+      printf("\nA 3 pont:\n x1 = %lf\nStationary Points :\n %lf +i*%lf\n%lf -i*%lf", x1, x2, x3, x2, x3);
 
       break;
 
@@ -101,18 +101,18 @@ void cubicequation()
 
       x3 = l * (m - n) + p;
 
-      printf("\nA 3 Roots:\n%lf\n%lf\n%lf", x1, x2, x3);
+      printf("\nA 3 Roots:\nx1 = %lf\nx2 = %lf\nx3 = %lf", x1, x2, x3);
 
       break;
    }
 
-   getch();
+   //getch();
    red();
-   printf("\n");
    // plotting graph
    INIT_grid();
    float x;
    float y;
+   printf("\n");
    for (x = -10; x <= 10; x += 0.1)
    {
       y = (a * (pow(x, 3))) + (b * (pow(x, 2))) + (c * x) + d;
