@@ -2,6 +2,7 @@
 #define CUBIC_EQUATION_FILE
 #include <stdlib.h>
 #include<math.h>
+#include<conio.h>
 #include"cubic_Graph.h"
 #include "colored_output.h"
 
