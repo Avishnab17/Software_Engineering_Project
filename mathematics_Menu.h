@@ -3,7 +3,9 @@
 #include "linear_Equation.h"
 #include "cubic_Equation.h"
 #include "quadratic_Equation.h"
-#include  "colored_output.h"
+#include "colored_output.h"
+#include "store_root_values.h"
+#include "view_stored_roots.h"
 
 
 int mathematics_Menu()
@@ -24,7 +26,9 @@ int mathematics_Menu()
       printf("1. Linear equation\n");
       printf("2. Quadratic equation\n");
       printf("3. Cubic equation\n");
-      printf("4. Exit\n");
+      printf("4. Store root values\n");
+      printf("5. View stored values\n");
+      printf("6. Exit\n");
    
  
       printf("Choice : ");
@@ -44,8 +48,16 @@ int mathematics_Menu()
              cubicequation();
              break;
           }
-
           case 4: {
+             storeroot();
+             break;
+          }
+          case 5: {
+             view_stored_roots();
+             break;
+          }
+
+          case 6: {
               exit(0);
           }
 
