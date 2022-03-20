@@ -12,9 +12,13 @@ int quadraticequation()
     blue();
     printf("   \n\ta*x^2+b*x+c   \n"); 
     cyan();
-    printf("\nEnter value of a : ");  scanf("%f", &a);  
-    printf("\nEnter value of b : "); scanf("%f", &b);  
-    printf("\nEnter value of c : ");scanf("%f",  &c); 
+    
+    printf("\nEnter value of a: ");  
+    scanf("%f",&a);  
+    printf("\nEnter value of b: "); 
+    scanf("%f",&b);  
+    printf("\nEnter value of c: ");
+    scanf("%f",&c); 
   
   
     if(a == 0)  
