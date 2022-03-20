@@ -13,7 +13,7 @@ void cubicequation()
 
    int w;
    cyan();
-   printf("\n a*x^3+b*x^2+c*x+d:\n");
+   printf("\n a*x^3+b*x^2+c*x+d:\n\n");
 
    printf("Enter value of a : ");
 
