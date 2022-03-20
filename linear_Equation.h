@@ -20,7 +20,7 @@ void linearequation()
     blue();
     printf("\n\ta*x+b\n");
     float a=0, b=0;
-    float solution;
+    float solution1;
     cyan();    
     printf("\nEnter value of a : ");
     scanf("%f",&a);
@@ -37,15 +37,15 @@ void linearequation()
     scanf("%f",&b);
 
     yellow();
-    solution = solve(a,b);
-    printf("\nValue of x is : %f\n", solution);
+    solution1=solve(a,b);
+    printf("\nValue of x is : %f\n", solution1);
     
     // storing results in txt file
     FILE *fptr;
     fptr=fopen("Stored_roots_values.txt","a");
 
     reset();
-   fprintf(fptr,"\nLinear Equation :  %0.1f *x + %0.1f    Root = %0.3f ",solution);
+   fprintf(fptr,"\nLinear Equation :  %0.1f *x + %0.1f    Root = %0.3f ",a,b,solution1);
    fptr=freopen("Stored_roots_values.txt","r",fptr);
    printf("\nSuccessfully appended data\n");
    readFile(fptr);

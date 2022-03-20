@@ -6,3 +6,5 @@ Cubic Equation: -2.0*x^3 + -1.0*x^2 + 4.0*x + 5.0
    Stationary Points :
 	 -1.572 +i*0.611 
 	 -1.572 -i*0.611
+
+Linear Equation :  2.0 *x + 3.0    Root = -1.500 
