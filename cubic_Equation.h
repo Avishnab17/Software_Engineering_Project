@@ -50,6 +50,7 @@ void cubicequation()
          printf("%f - %f i ",re,im);
       }
    }
+   printf("\n");
    //plotting graph
     INIT_grid();
     float x;

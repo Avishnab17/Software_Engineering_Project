@@ -48,5 +48,4 @@ void linearequation()
     reset();
     
 }
-
 #endif
