@@ -14,7 +14,7 @@ void linearequation()
 {
     float a=0, b=0;
     float solution;
-    
+    cyan();    
     printf("\nEnter value of a : ");
     scanf("%f",&a);
 

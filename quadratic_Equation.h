@@ -41,6 +41,7 @@ int quadraticequation()
         plot(rintf(x*4),rintf(y*2));
     }
     show_grid();
+    reset();
 
     return 0;  
 }  
