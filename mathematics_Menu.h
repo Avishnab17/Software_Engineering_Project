@@ -3,6 +3,7 @@
 #include "linear_Equation.h"
 #include "cubic_Equation.h"
 #include "quadratic_Equation.h"
+#include  "colored_output.h"
 
 
 int mathematics_Menu()
@@ -10,8 +11,9 @@ int mathematics_Menu()
     float result;
   
     int choice, num;
- 
+    green();
     printf("\n\n\n\n\n\t~~~~\tSOLVING EQUATIONS!\t~~~~\t\n\n\n\n\n");
+    reset();
       
       while(true)
     {
@@ -51,7 +53,9 @@ int mathematics_Menu()
           }
          
           default:
+          red();
           printf("Wrong input, try again!\n");
+          reset();
      
        }
      }
