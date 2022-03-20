@@ -45,7 +45,7 @@ void linearequation()
     fptr=fopen("Stored_roots_values.txt","a");
 
     reset();
-   fprintf(fptr,"Linear Equation :Roots = %f ",solution);
+   fprintf(fptr,"Linear Equation :Roots = %0.3f ",solution);
    fptr=freopen("Stored_roots_values.txt","r",fptr);
    printf("\nSuccessfully appended data\n");
    readFile(fptr);
