@@ -32,7 +32,7 @@ void cubicequation()
    scanf("%lf", &d);
 
    e = 2.7182818284590;
-
+   yellow();
    f = ((3 * c / a) - (b * b / (a * a))) / 3; // ** bracketed (a*a)!
 
    g = ((2 * b * b * b / (a * a * a)) - (9 * b * c / (a * a)) + (27 * d / a)) / 27; // ** brackets!
@@ -107,7 +107,7 @@ void cubicequation()
    }
 
    getch();
-
+   red();
    printf("\n");
    // plotting graph
    INIT_grid();
@@ -119,5 +119,6 @@ void cubicequation()
       PLOT(rintf(x * 4), rintf(y * 2));
    }
    SHOW_grid();
+   reset();
 }
 #endif
