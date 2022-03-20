@@ -7,11 +7,4 @@ Cubic Equation: -2.0*x^3 + -1.0*x^2 + 4.0*x + 5.0
 	 -1.572 +i*0.611 
 	 -1.572 -i*0.611
 
-Linear Equation :  2.0 *x + 3.0    Root = -1.500 
-Linear Equation :  6.0 *x + 7.0    Root = -1.167 
-Quadratic Equation : 2.0 *x^2 + 1.0 *x + 0.0  Root1 = 0.000    Root2 = -0.500 
-Cubic Equation: 1.0*x^3 + -3.0*x^2 + -1.0*x + 3.0
-  A 3 Roots:
-  x1 = 3.000
-  x2 = -1.000
-  x3 = 1.000
+Linear Equation :  4.0 *x + 5.0    Root = -1.250 

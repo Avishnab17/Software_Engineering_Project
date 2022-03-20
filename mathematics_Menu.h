@@ -20,7 +20,8 @@ int mathematics_Menu()
       
       while(true)
     {
-      printf("\nWhich type of equation you have to solve? :\n");
+      
+      printf("\n\nWhich type of equation you have to solve? :\n");
       printf("\nChoose from the choices below:\n");
       printf("\n");
       printf("1. Linear equation\n");
