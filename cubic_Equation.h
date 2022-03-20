@@ -87,7 +87,7 @@ void cubicequation()
     fptr=fopen("Stored_roots_values.txt","a");
 
     reset();
-   fprintf(fptr,"\nCubic Equation: %0.1lf*x^3 + %0.1lf*x^2 + %0.1lf*x + %0.1lf\n   A 3 pont: x1 = %0.3lf\n  Stationary Points :\n %0.3lf +i*%0.3lf\n   %0.3lf -i*%0.3lf",a,b,c,d,x1,x2,x3,x2,x3);
+   fprintf(fptr,"\nCubic Equation: %0.1lf*x^3 + %0.1lf*x^2 + %0.1lf*x + %0.1lf\n   A 3 pont: x1 = %0.3lf\n   Stationary Points :\n\t %0.3lf +i*%0.3lf \n\t %0.3lf -i*%0.3lf",a,b,c,d,x1,x2,x3,x2,x3);
    fptr=freopen("Stored_roots_values.txt","r",fptr);
    printf("\nSuccessfully appended data\n");
    readFile(fptr);
