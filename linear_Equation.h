@@ -26,7 +26,7 @@ void linearequation()
         scanf("%f",&a);
     }
 
-
+ 
     printf("\nEnter value of b : ");
     scanf("%f",&b);
 
