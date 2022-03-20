@@ -12,7 +12,8 @@ int mathematics_Menu()
   
     int choice, num;
     green();
-    printf("\n\n\n\n\n\t~~~~\tSOLVING EQUATIONS!\t~~~~\t\n\n\n\n\n");
+    printf("\n\n\n\n\n\t~~~~~~~\tWELCOME TO MATHS MATE EQUATION SOLVER\t~~~~~~~\t\n\n");
+    printf("                    \n\n\t\t~~~~\tLET'S SOLVE EQUATIONS!\t~~~~\t\n\n\n");
     reset();
       
       while(true)
@@ -24,7 +25,7 @@ int mathematics_Menu()
       printf("2. Quadratic equation\n");
       printf("3. Cubic equation\n");
       printf("4. Exit\n");
-      printf("5. Return to main menu\n");
+   
  
       printf("Choice : ");
       scanf("%d",&choice);
@@ -48,9 +49,6 @@ int mathematics_Menu()
               exit(0);
           }
 
-          case 5:{
-              return 0;
-          }
          
           default:
           red();
