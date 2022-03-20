@@ -3,6 +3,7 @@
 
 #include <stdlib.h>
 #include "linear_Graph.h"
+#include "colored_output.h"
 
 float solve(float a, float b)
 {
@@ -13,7 +14,7 @@ void linearequation()
 {
     float a=0, b=0;
     float solution;
-
+    
     printf("\nEnter value of a : ");
     scanf("%f",&a);
 
@@ -31,9 +32,9 @@ void linearequation()
     scanf("%f",&b);
 
     solution = solve(a,b);
-
+    yellow();
     printf("\nValue of x is : %f\n", solution);
-
+    red();
     //plotting graph
     Init_grid();
     float x;
@@ -44,6 +45,7 @@ void linearequation()
         Plot(rintf(x*4),rintf(y*2));
     }
     Show_grid();
+    reset();
     
 }
 

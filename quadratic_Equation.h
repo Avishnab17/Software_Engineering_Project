@@ -3,7 +3,7 @@
 #include <stdio.h>  
 #include <math.h>  
 #include "quadratic_graph.h"
-
+#include "colored_output.h"
 int quadraticequation()  
 {  
     float a, b, c;  

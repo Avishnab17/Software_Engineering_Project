@@ -3,6 +3,7 @@
 #include <stdlib.h>
 #include<math.h>
 #include"cubic_Graph.h"
+#include "colored_output.h"
 
 void cubicequation()
 {
