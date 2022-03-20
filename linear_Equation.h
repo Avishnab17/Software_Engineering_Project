@@ -40,7 +40,7 @@ void linearequation()
     for(x=-10;x<=10;x+=0.1)
     {
         y = (a * x) + b;
-        Plot(rintf(x*4),rintf(y*2));
+        Plot(rintf(x*4),rintf(y*1));
     }
     Show_grid();
     reset();
