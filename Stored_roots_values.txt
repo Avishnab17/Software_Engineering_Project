@@ -8,3 +8,10 @@ Cubic Equation: -2.0*x^3 + -1.0*x^2 + 4.0*x + 5.0
 	 -1.572 -i*0.611
 
 Linear Equation :  4.0 *x + 5.0    Root = -1.250 
+Linear Equation :  2.0 *x + 7.0    Root = -3.500 
+Quadratic Equation : 1.0 *x^2 + 3.0 *x + 2.0  Root1 = -1.000    Root2 = -2.000 
+Cubic Equation: -1.0*x^3 + 0.0*x^2 + 6.0*x + -2.0
+  A 3 Roots:
+  x1 = 2.262
+  x2 = -2.602
+  x3 = 0.340

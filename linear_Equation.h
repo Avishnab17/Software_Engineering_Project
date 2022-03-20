@@ -62,7 +62,7 @@ void linearequation()
    green1();
    printf("\nSuccessfully appended data\n If you want to view stored value, PRESS 5\n");
    printf("\n");
-   fclose(fptr);
+   fclose(fptr);reset();
     
 }
 #endif
