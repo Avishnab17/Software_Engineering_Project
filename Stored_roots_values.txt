@@ -15,3 +15,5 @@ Cubic Equation: -1.0*x^3 + 0.0*x^2 + 6.0*x + -2.0
   x1 = 2.262
   x2 = -2.602
   x3 = 0.340
+Linear Equation :  1.0 *x + 5.0    Root = -5.000 
+Quadratic Equation : 1.0 *x^2 + 2.0 *x + 6.0  Root1 = -1.#IO    Root2 = -1.#IO 
