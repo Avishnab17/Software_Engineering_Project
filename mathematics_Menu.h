@@ -6,7 +6,7 @@
 #include "colored_output.h"
 #include "store_root_values.h"
 #include "view_stored_roots.h"
-
+#include "delete_lines.h"
 
 int mathematics_Menu()
 {
@@ -31,7 +31,8 @@ int mathematics_Menu()
       printf("3. Cubic equation\n");
       printf("4. Store root values\n");
       printf("5. View stored values\n");
-      printf("6. Exit\n");
+      printf("6. Delete the number of lines\n");
+      printf("7. Exit\n");
    
  
       printf("Choice : ");
@@ -59,8 +60,10 @@ int mathematics_Menu()
              view_stored_roots();
              break;
           }
-
-          case 6: {
+          case 6:{
+             delete();
+          }
+          case 7: {
               exit(0);
           }
 
