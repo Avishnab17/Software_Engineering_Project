@@ -4,6 +4,5 @@
 
 void main()
 {   
-    printf("Project by Team A");
     mathematics_Menu();
 }

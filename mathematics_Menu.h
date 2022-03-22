@@ -13,6 +13,8 @@ int mathematics_Menu()
     float result;
   
     int choice, num;
+    red();
+    printf("\nProject by : BOOTUN Avishna, DOOKHEET Vaishnavi and MUNOGEE Yashi");
     green();
     printf("\n\n\n\n\n\t~~~~~~~\tWELCOME TO MATHS MATE EQUATION SOLVER\t~~~~~~~\t\n\n");
     printf("                    \n\n\t\t~~~~\tLET'S SOLVE EQUATIONS!\t~~~~\t\n\n\n");
