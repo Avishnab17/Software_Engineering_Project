@@ -1,2 +1,1 @@
 
-Quadratic Equation : -1.0 *x^2 + 5.0 *x + 7.0  Root1 = -1.140    Root2 = 6.140 
