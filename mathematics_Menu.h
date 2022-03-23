@@ -62,6 +62,7 @@ int mathematics_Menu()
           }
           case 6:{
              delete();
+             break;
           }
           case 7: {
               exit(0);
