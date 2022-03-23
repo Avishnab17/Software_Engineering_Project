@@ -1,8 +1,3 @@
 
 Linear Equation :  5.0 *x + 8.0    Root = -1.600 
 Quadratic Equation : -1.0 *x^2 + 5.0 *x + 7.0  Root1 = -1.140    Root2 = 6.140 
-Cubic Equation: -1.0*x^3 + -3.0*x^2 + 5.0*x + 7.0
-  A 3 Roots:
-  x1 = 1.828
-  x2 = -3.828
-  x3 = -1.000
