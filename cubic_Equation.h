@@ -94,10 +94,10 @@ void cubicequation()
       x2 = (-1) * (s + u) / 2 - (b / 3 * a);
 
       x3 = (s - u) * sqrt(3) / 2;
-
+      yellow();
       printf("\nA 3 pont:\n x1 = %lf\n\nStationary Points :\n %lf +i*%lf\n %lf -i*%lf", x1, x2, x3, x2, x3);
       // storing results in txt file
-    
+     
     fptr=fopen("Stored_roots_values.txt","a");
     green1();
    fprintf(fptr,"\nCubic Equation: %0.1lf*x^3 + %0.1lf*x^2 + %0.1lf*x + %0.1lf\n   A 3 pont: x1 = %0.3lf\n   Stationary Points :\n\t %0.3lf +i*%0.3lf \n\t %0.3lf -i*%0.3lf",a,b,c,d,x1,x2,x3,x2,x3);
@@ -112,7 +112,7 @@ void cubicequation()
    case 2:
 
       x1 = exp(log10(d / a) / log10(e) / 3) * (-1);
-
+      yellow();
       printf("\n There is a line:\n%lf", x1);
        // storing results in txt file
    
@@ -137,7 +137,7 @@ void cubicequation()
       x2 = l * (m + n) + p;
 
       x3 = l * (m - n) + p;
-
+      yellow();
       printf("\nA 3 Roots:\nx1 = %lf\nx2 = %lf\nx3 = %lf", x1, x2, x3);
            // storing results in txt file
    

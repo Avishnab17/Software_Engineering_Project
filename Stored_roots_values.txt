@@ -1,3 +1,23 @@
 
 
 Linear Equation :  4.0 *x + 6.0    Root = -1.500 
+Cubic Equation: 1.0*x^3 + -3.0*x^2 + 0.0*x + 8.0
+   A 3 pont: x1 = -1.#IO
+   Stationary Points :
+	 1.#QO +i*-1.#IO 
+	 1.#QO -i*-1.#IO
+Cubic Equation: -1.0*x^3 + -3.0*x^2 + 0.0*x + 6.0
+   A 3 pont: x1 = 1.196
+   Stationary Points :
+	 -2.098 +i*0.785 
+	 -2.098 -i*0.785
+Cubic Equation: -1.0*x^3 + -3.0*x^2 + 0.0*x + 6.0
+   A 3 pont: x1 = 1.196
+   Stationary Points :
+	 -2.098 +i*0.785 
+	 -2.098 -i*0.785
+Cubic Equation: -1.0*x^3 + 0.0*x^2 + 6.0*x + 7.0
+   A 3 pont: x1 = 2.901
+   Stationary Points :
+	 -1.450 +i*0.557 
+	 -1.450 -i*0.557
