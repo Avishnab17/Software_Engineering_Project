@@ -57,6 +57,7 @@
         }
         fclose(fptr1);
         fclose(fptr2);
+        
         remove(fname);  		// remove the original file 
         rename(temp, fname); 	// rename the temporary file to original name
 /*------ Read the file ----------------*/
