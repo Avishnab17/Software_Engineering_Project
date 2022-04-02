@@ -60,7 +60,7 @@ int quadraticequation()
     green1();
    fprintf(fptr,"\nQuadratic Equation : %0.1f *x^2 + %0.1f *x + %0.1f  Root1 = %0.3f    Root2 = %0.3f ",a,b,c,root1,root2);
    fptr=freopen("Stored_roots_values.txt","r",fptr);
-   printf("\nSuccessfully appended data\n  If you want to view stored value, PRESS 5\n");
+   printf("\nSuccessfully appended data\n  If you want to view stored value, PRESS 4\n");
   
    printf("\n");
    fclose(fptr);reset();
