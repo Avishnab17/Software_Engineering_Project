@@ -4,7 +4,7 @@
 #include <math.h>  
 #include "quadratic_graph.h"
 #include "colored_output.h"
-#include "store_root_values.h"
+//#include "store_root_values.h"
 
 int quadraticequation()  
 {  
