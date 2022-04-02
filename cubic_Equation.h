@@ -102,7 +102,7 @@ void cubicequation()
     green1();
    fprintf(fptr,"\nCubic Equation: %0.1lf*x^3 + %0.1lf*x^2 + %0.1lf*x + %0.1lf\n   A 3 pont: x1 = %0.3lf\n   Stationary Points :\n\t %0.3lf +i*%0.3lf \n\t %0.3lf -i*%0.3lf",a,b,c,d,x1,x2,x3,x2,x3);
    fptr=freopen("Stored_roots_values.txt","r",fptr);
-   printf("\nSuccessfully appended data\n  If you want to view stored value, PRESS 5\n");
+   printf("\nSuccessfully appended data\n  If you want to view stored value, PRESS 4\n");
    
    printf("\n");
    fclose(fptr);reset();
@@ -121,7 +121,7 @@ void cubicequation()
     green1();
    fprintf(fptr,"\nCubic Equation: %0.1lf*x^3 + %0.1lf*x^2 + %0.1lf*x + %0.1lf\n   There is a line: x1 = %0.3lf",a,b,c,d,x1);
    fptr=freopen("Stored_roots_values.txt","r",fptr);
-   printf("\nSuccessfully appended data\n If you want to view stored value, PRESS 5\n");
+   printf("\nSuccessfully appended data\n If you want to view stored value, PRESS 4\n");
    
    printf("\n");
    fclose(fptr);
@@ -146,7 +146,7 @@ void cubicequation()
     green1();
    fprintf(fptr,"\nCubic Equation: %0.1lf*x^3 + %0.1lf*x^2 + %0.1lf*x + %0.1lf\n  A 3 Roots:\n  x1 = %0.3lf\n  x2 = %0.3lf\n  x3 = %0.3lf",a,b,c,d,x1,x2,x3);
    fptr=freopen("Stored_roots_values.txt","r",fptr);
-   printf("\nSuccessfully appended data\n If you want to view stored value, PRESS 5\n");
+   printf("\nSuccessfully appended data\n If you want to view stored value, PRESS 4\n");
    
    printf("\n");
    fclose(fptr);

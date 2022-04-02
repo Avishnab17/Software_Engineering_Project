@@ -60,7 +60,7 @@ void linearequation()
    fprintf(fptr,"\nLinear Equation :  %0.1f *x + %0.1f    Root = %0.3f ",a,b,solution1);
    fptr=freopen("Stored_roots_values.txt","r",fptr);
    green1();
-   printf("\nSuccessfully appended data\n If you want to view stored value, PRESS 5\n");
+   printf("\nSuccessfully appended data\n If you want to view stored value, PRESS 4\n");
    printf("\n");
    fclose(fptr);reset();
     
