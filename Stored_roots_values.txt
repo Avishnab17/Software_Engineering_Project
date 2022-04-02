@@ -1,28 +1,4 @@
-
-
 Linear Equation :  4.0 *x + 6.0    Root = -1.500 
-<<<<<<< HEAD
-Cubic Equation: 1.0*x^3 + -3.0*x^2 + 0.0*x + 8.0
-   A 3 pont: x1 = -1.#IO
-   Stationary Points :
-	 1.#QO +i*-1.#IO 
-	 1.#QO -i*-1.#IO
-Cubic Equation: -1.0*x^3 + -3.0*x^2 + 0.0*x + 6.0
-   A 3 pont: x1 = 1.196
-   Stationary Points :
-	 -2.098 +i*0.785 
-	 -2.098 -i*0.785
-Cubic Equation: -1.0*x^3 + -3.0*x^2 + 0.0*x + 6.0
-   A 3 pont: x1 = 1.196
-   Stationary Points :
-	 -2.098 +i*0.785 
-	 -2.098 -i*0.785
-Cubic Equation: -1.0*x^3 + 0.0*x^2 + 6.0*x + 7.0
-   A 3 pont: x1 = 2.901
-   Stationary Points :
-	 -1.450 +i*0.557 
-	 -1.450 -i*0.557
-=======
 Linear Equation :  1.0 *x + 3.0    Root = -3.000 
 Linear Equation :  3.0 *x + 4.0    Root = -1.333 
 Cubic Equation: -1.0*x^3 + -3.0*x^2 + 5.0*x + 8.0
@@ -32,4 +8,5 @@ Cubic Equation: -1.0*x^3 + -3.0*x^2 + 5.0*x + 8.0
   x3 = -1.125
 Quadratic Equation : 3.0 *x^2 + -1.0 *x + 3.0  Root1 = nan    Root2 = nan 
 Quadratic Equation : -1.0 *x^2 + -2.0 *x + 4.0  Root1 = -3.236    Root2 = 1.236 
->>>>>>> ac44ca26b198d7bc8c05a829bec66fb158f94925
+
+Linear Equation :  3.0 *x + 4.0    Root = -1.333 
