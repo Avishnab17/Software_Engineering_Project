@@ -15,7 +15,7 @@
         char str[MAX], temp[] = "temp.txt";
 		printf("\n\n Delete the line from a file :\n");
 		printf("-----------------------------------------\n"); 
-		printf("Input the name of the file to be opened:\n");
+		//printf("Input the name of the file to be opened:\n");
         //scanf("%s",fname);
         fptr1 = fopen(fname, "r");
         if (!fptr1) 
