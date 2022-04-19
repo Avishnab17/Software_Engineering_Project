@@ -1,5 +1,3 @@
-Linear Equation :  4.0 *x + 6.0    Root = -1.500 
-Linear Equation :  1.0 *x + 3.0    Root = -3.000 
 Linear Equation :  3.0 *x + 4.0    Root = -1.333 
 Quadratic Equation : 3.0 *x^2 + -1.0 *x + 3.0  Root1 = nan    Root2 = nan 
 Quadratic Equation : -1.0 *x^2 + -2.0 *x + 4.0  Root1 = -3.236    Root2 = 1.236 
