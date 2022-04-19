@@ -33,7 +33,7 @@
         printf(" Input the line you want to remove : ");
         scanf("%d", &lno);
 
-        printf(" Input the second line you want to remove : ");
+        printf(" Input up to which line you want to remove : ");
         scanf("%d", &lno1);
 		
         // copy all contents to the temporary file except the specific line
