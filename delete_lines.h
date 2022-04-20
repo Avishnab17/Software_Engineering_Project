@@ -60,7 +60,7 @@
         
         int check=remove(fname);  		// remove the original file 
         if (check==0){
-            printf("Sucsessful");
+            printf("Successful");
         }
         else {
             printf("Failed");
