@@ -58,12 +58,19 @@
         fclose(fptr1);
         fclose(fptr2);
         
-        remove(fname);  		// remove the original file 
+        int check=remove(fname);  		// remove the original file 
+        if (check==0){
+            printf("Sucsessful");
+        }
+        else {
+            printf("Failed");
+        }
+
         rename(temp, fname); 	// rename the temporary file to original name
 /*------ Read the file ----------------*/
         fptr1=fopen(fname,"r"); 
             ch=fgetc(fptr1); 
-          printf(" Now the content of the file %s is : \n",fname); 
+          printf(" \nNow the content of the file %s is : \n",fname); 
           while(ch!=EOF) 
             { 
                 printf("%c",ch); 
