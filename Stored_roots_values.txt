@@ -4,3 +4,6 @@ Linear Equation :  3.0 *x + 7.0    Root = -2.333
 
 Linear Equation :  1.0 *x + 2.0    Root = -2.000 
 Linear Equation :  2.0 *x + 5.0    Root = -2.500 
+
+
+Linear Equation :  4.0 *x + 5.0    Root = -1.250 
