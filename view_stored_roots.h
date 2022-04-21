@@ -7,7 +7,7 @@ void view_stored_roots()
     FILE * ptr;
     int c;
 
-    ptr=fopen("Stored_roots_values.txt","r");
+    ptr=fopen("Stored_Roots_Values.txt","r");
 
     if(ptr == NULL)
     {
