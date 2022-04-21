@@ -2,8 +2,8 @@
 #define QUADRATIC_EQUATION_FILE
 #include <stdio.h>  
 #include <math.h>  
-#include "quadratic_graph.h"
-#include "colored_output.h"
+#include "quadratic_Graph.h"
+#include "colored_Output.h"
 //#include "store_root_values.h"
 
 int quadraticequation()  

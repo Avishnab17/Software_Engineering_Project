@@ -4,7 +4,7 @@
 #include<math.h>
 #include<conio.h>
 #include"cubic_Graph.h"
-#include "colored_output.h"
+#include "colored_Output.h"
 
 void cubicequation()
 {

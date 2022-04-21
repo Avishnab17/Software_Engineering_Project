@@ -6,7 +6,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include "linear_Graph.h"
-#include "colored_output.h"
+#include "colored_Output.h"
 //#include "store_root_values.h"
 
 float solve(float a, float b)

@@ -3,10 +3,10 @@
 #include "linear_Equation.h"
 #include "cubic_Equation.h"
 #include "quadratic_Equation.h"
-#include "colored_output.h"
+#include "colored_Output.h"
 //#include "store_root_values.h"
-#include "view_stored_roots.h"
-#include "delete_lines.h"
+#include "view_Stored_Roots.h"
+#include "delete_Lines.h"
 
 int mathematics_Menu()
 {
