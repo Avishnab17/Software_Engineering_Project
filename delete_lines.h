@@ -11,7 +11,7 @@
         int lno,lno1, ctr = 0;
         char ch;
         FILE *fptr1, *fptr2;
-		char fname[MAX]="Stored_roots_values.txt";
+		char fname[MAX]="stored_Roots_Values.txt";
         char str[MAX], temp[] = "temp.txt";
 		printf("\n\n Delete the line from a file :\n");
 		printf("-----------------------------------------\n"); 
