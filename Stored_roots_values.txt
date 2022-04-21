@@ -8,3 +8,4 @@ Cubic Equation: -4.0*x^3 + 3.0*x^2 + 25.0*x + 6.0
   x1 = 6.750
   x2 = 1.750
   x3 = 3.500
+Quadratic Equation : -1.0 *x^2 + -2.0 *x + 4.0  Root1 = -3.236    Root2 = 1.236 
