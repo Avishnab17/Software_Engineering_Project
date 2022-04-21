@@ -1,9 +1,10 @@
-
+~~~~~~  CALCULATIONS MADE IN THE MATH MATE SOLVER  ~~~~~~
 Linear Equation :  3.0 *x + 4.0    Root = -1.333 
 Linear Equation :  3.0 *x + 7.0    Root = -2.333 
-
-Linear Equation :  1.0 *x + 2.0    Root = -2.000 
-Linear Equation :  2.0 *x + 5.0    Root = -2.500 
-
-
-Linear Equation :  4.0 *x + 5.0    Root = -1.250 
+Linear Equation :  5.0 *x + 7.0    Root = -1.400 
+Quadratic Equation : 1.0 *x^2 + 4.0 *x + -2.0  Root1 = 0.449    Root2 = -4.449 
+Cubic Equation: -4.0*x^3 + 3.0*x^2 + 25.0*x + 6.0
+  A 3 Roots:
+  x1 = 6.750
+  x2 = 1.750
+  x3 = 3.500
