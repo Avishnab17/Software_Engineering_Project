@@ -29,8 +29,8 @@ int mathematics_Menu()
       printf("1. Linear equation\n");
       printf("2. Quadratic equation\n");
       printf("3. Cubic equation\n");
-      printf("4. View stored values\n");
-      printf("5. Delete the number of lines\n");
+      printf("4. Delete the number of lines\n");
+      printf("5. View stored values\n");
       printf("6. Exit\n");
    
  
@@ -52,11 +52,11 @@ int mathematics_Menu()
              break;
           }
           case 4: {
-             view_stored_roots();
+             delete();
              break;
           }
           case 5:{
-             delete();
+             view_stored_roots();
              break;
           }
           case 6: {
