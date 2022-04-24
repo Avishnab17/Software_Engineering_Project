@@ -70,11 +70,15 @@
 /*------ Read the file ----------------*/
         fptr1=fopen(fname,"r"); 
             ch=fgetc(fptr1); 
+            yellow();
           printf(" \nNow the content of the file %s is : \n",fname); 
+          reset();
           while(ch!=EOF) 
             { 
+                cyan();
                 printf("%c",ch); 
                  ch=fgetc(fptr1); 
+                 reset();
             }
         fclose(fptr1);
 /*------- End of reading ---------------*/
