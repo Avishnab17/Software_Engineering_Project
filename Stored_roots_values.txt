@@ -16,10 +16,5 @@ Cubic Equation: -1.0*x^3 + -3.0*x^2 + 2.0*x + 1.0
   x1 = 0.834
   x2 = -3.491
   x3 = -0.343
-Cubic Equation: -1.0*x^3 + -3.0*x^2 + 1.0*x + -5.0
-   A 3 pont: x1 = -1.#IO
-   Stationary Points :
-	 1.#QO +i*-1.#IO 
-	 1.#QO -i*-1.#IO
 Cubic Equation: 1.0*x^3 + 0.0*x^2 + 0.0*x + 0.0
    There is a line: x1 = -0.000
