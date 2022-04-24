@@ -19,7 +19,9 @@ void view_stored_roots()
     } 
     while((c=fgetc(ptr))!=EOF)
     {
+        blue();
         printf("%c",c);
+        reset();
     }
 
 }
