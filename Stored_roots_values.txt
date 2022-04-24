@@ -9,3 +9,17 @@ Cubic Equation: -4.0*x^3 + 3.0*x^2 + 25.0*x + 6.0
   x2 = 1.750
   x3 = 3.500
 Quadratic Equation : -1.0 *x^2 + -2.0 *x + 4.0  Root1 = -3.236    Root2 = 1.236 
+Linear Equation :  2.0 *x + 7.0    Root = -3.500 
+Quadratic Equation : 1.0 *x^2 + 3.0 *x + -4.0  Root1 = 1.000    Root2 = -4.000 
+Cubic Equation: -1.0*x^3 + -3.0*x^2 + 2.0*x + 1.0
+  A 3 Roots:
+  x1 = 0.834
+  x2 = -3.491
+  x3 = -0.343
+Cubic Equation: -1.0*x^3 + -3.0*x^2 + 1.0*x + -5.0
+   A 3 pont: x1 = -1.#IO
+   Stationary Points :
+	 1.#QO +i*-1.#IO 
+	 1.#QO -i*-1.#IO
+Cubic Equation: 1.0*x^3 + 0.0*x^2 + 0.0*x + 0.0
+   There is a line: x1 = -0.000
